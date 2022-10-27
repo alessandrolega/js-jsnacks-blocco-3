@@ -1,5 +1,6 @@
 // *Snack1*
-// Crea un array vuoto e chiedi all’utente un numero da inserire nell’array.
+// Crea un array vuoto
+// e chiedi all’utente un numero da inserire nell’array.
 // Continua a chiedere i numeri all’utente e a inserirli nell’array fino a quando la somma degli elementi è minore di 50.
 // *Snack2*
 // Il software deve chiedere per 5 volte all’utente di inserire un numero.
@@ -12,3 +13,34 @@
 // *Snack4 (Bonus)*
 // In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 // Interrompi il ciclo appena il nome è stato trovato.
+
+
+// SNACK 1 //
+
+let arrayEmpty = [];
+let i = 0;
+
+while (i < 50 ){
+    let numSum = parseInt(prompt('Inserisci un numero'));
+    i += numSum;
+    arrayEmpty.push(numSum);
+    i++
+    console.log(arrayEmpty)
+
+}
+
+
+
+
+
+
+
+// SNACK 2 //
+
+
+
+
+
+
+
+

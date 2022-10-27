@@ -17,25 +17,34 @@
 
 // SNACK 1 //
 
-let arrayEmpty = [];
-let i = 0;
+// let arrayEmpty = [];
+// let i = 0;
 
-while (i < 50 ){
-    let numSum = parseInt(prompt('Inserisci un numero'));
-    i += numSum;
-    arrayEmpty.push(numSum);
-    i++
-    console.log(arrayEmpty)
+// while (i < 50 ){
+//     let numSum = parseInt(prompt('Inserisci un numero'));
+//     i += numSum;
+//     arrayEmpty.push(numSum);
+//     i++
+//     console.log(arrayEmpty)
 
-}
-
-
-
-
+// }
 
 
 
 // SNACK 2 //
+
+let i = 0;
+let sum = 0;
+
+while ( i < 5) {
+    let num = parseInt(prompt('Inserisci un numero'));
+    sum += num;
+    i++
+
+
+}
+
+console.log(sum)
 
 
 

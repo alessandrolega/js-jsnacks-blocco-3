@@ -50,8 +50,35 @@
 
 // SNACK 3 (BONUS) //
 
-let n = parseInt(prompt('Inserisci Numero N'));
-let nArray = [];
+// let n = parseInt(prompt('Inserisci Numero N'));
+// let nArray = [];
+
+
+
+// SNACK 4 (BONUS)
+
+let invitati = ['Ale', 'Luca', 'Gervaso', 'Eufemio'];
+let nameGuest = prompt("Inserisci il tuo nome: ");
+let i=0;
+
+while(true){
+    
+    if(nameGuest == invitati[i]){
+        console.log('Il nome è sulla lista');
+        break;
+    
+    } else {
+        console.log('nome non in lista');
+        break;
+    }
+    i++;
+}
+
+
+
+
+
+
 
 
 

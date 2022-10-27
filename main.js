@@ -33,18 +33,25 @@
 
 // SNACK 2 //
 
-let i = 0;
-let sum = 0;
+// let i = 0;
+// let sum = 0;
 
-while ( i < 5) {
-    let num = parseInt(prompt('Inserisci un numero'));
-    sum += num;
-    i++
+// while ( i < 5) {
+//     let num = parseInt(prompt('Inserisci un numero'));
+//     sum += num;
+//     i++
 
 
-}
+// }
 
-console.log(sum)
+// console.log(sum)
+
+
+
+// SNACK 3 (BONUS) //
+
+let n = parseInt(prompt('Inserisci Numero N'));
+let nArray = [];
 
 
 
